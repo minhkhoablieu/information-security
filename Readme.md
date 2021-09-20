@@ -2,7 +2,7 @@
 
 ## 1. Data Encryption Standard
 
-This is a code that simulates 16 rounds of DES . encryption algorithm
+This code simulates 16 rounds of DES . encryption algorithm
 
 ## (1) Usage/Examples
 
