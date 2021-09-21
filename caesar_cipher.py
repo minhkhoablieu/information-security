@@ -23,11 +23,11 @@ class CaesarCipher:
                 result += chr((ord(char) - self.key - 65) % 26 + 65)
 
             else:
-                result += chr((ord(char) + self.key - 97) % 26 + 97)
+                result += chr((ord(char) - self.key - 97) % 26 + 97)
         return result
 
 
-message = "EXXEGOEXSRGI"
-key = 4
-encrypt_message = CaesarCipher(text=message, key=key).encrypt()
+message = "Kddkmuyxdsdkx"
+key = 10
+encrypt_message = CaesarCipher(text=message, key=key).decrypt()
 print(encrypt_message)
