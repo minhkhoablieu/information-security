@@ -42,7 +42,7 @@ class CrackCaesarCipher:
         return result
 
 
-message = "dynkisckqbokdnki"
+message = "Sxkwxcyxdsbon"
 crack = CrackCaesarCipher(text=message)
 crack.crack()
 crack.presult()
