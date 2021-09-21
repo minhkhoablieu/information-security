@@ -27,7 +27,7 @@ class CaesarCipher:
         return result
 
 
-message = "Kddkmuyxdsdkx"
+message = "todayisagreatday"
 key = 10
-encrypt_message = CaesarCipher(text=message, key=key).decrypt()
+encrypt_message = CaesarCipher(text=message, key=key).encrypt()
 print(encrypt_message)
